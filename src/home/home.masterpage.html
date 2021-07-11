@@ -1,0 +1,33 @@
+<p>masterpage works!</p>
+<div>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <a class="navbar-brand" href="#">DKTE</a>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a [routerLink]="['Home']" class="nav-link" href="#">Home <span class="sr-only"></span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a [routerLink]="['customer']" class="nav-link" href="#">customer</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a [routerLink]="['form']" class="nav-link" href="#">form</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+
+</div>
+
+
+
+
+
+<div>
+    <router-outlet>
+
+    </router-outlet>
+</div>
